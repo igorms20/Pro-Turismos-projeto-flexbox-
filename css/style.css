@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('reset.css');
+
+:root {
+    --primary-color: rgb(71, 10, 146);
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: var(--primary-color);
+    margin-bottom: 8rem;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+    margin-left: 8rem;
+}
+
+header h1 span {
+    font-size: 24px;
+    color: rgb(240, 220, 0);
+}
+
+.navigator {
+    display: flex;
+    gap: 1rem;
+    margin-right: 10rem;
+    list-style: none;
+}
+
+.navigator li a {
+    color: white;
+
+}
+
+section {
+    padding-inline: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h1 {
+    font-size: 60px;
+    color: var(--primary-color);
+    line-height: 70px;
+}
+
+.texto p {
+    font-weight: bold;
+}
+
+.figura {
+    width: 50%;
+}
+
+.figura img {
+    width: 100%;
+}
+
+#apresentacao .texto p, #apresentacao .texto h1 {
+    margin-bottom: 2rem;
+}
+
+#apresentacao .texto{
+    width: 50%;
+}
+
+#main-button {
+    font-size: 20px;
+    background-color: var(--primary-color);
+    padding: .5rem 2.5rem;
+    border-radius: 30px;
+    color: white;
+    margin-top: 4rem;
+}
+
+#quem-somos {
+    gap: 5rem;
+}
+
+#quem-somos .texto {
+    width: 50%;
+}
+
+/* #quem-somos div {
+    flex-grow: 1;
+} */
+
+.paragrafoQS {
+    margin-bottom: 1.5rem;
+}
+
+#servicos {
+    background-color: var(--primary-color);
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    padding: 4rem 18rem;
+}
+
+#servicos .texto {
+    align-self: flex-start;
+
+}
+#areaServicos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#tituloServicos {
+    color: white;
+    text-align: left;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.servico p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.servico a {
+    color: var(--primary-color);
+    background-color: white;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#tituloQS {
+    color: var(--primary-color);
+}
+
+
+#planos {
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 3rem;
+}
+
+#areaPlanos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10rem;
+}
+
+.plano {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--primary-color);
+    padding: 2rem 2.3rem;
+    gap: 4rem;
+}
+
+.plano h3 {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.plano ul {
+    list-style-type: square;
+}
+
+.plano a {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    text-align: center;
+    /* margin-top: 50rem; */
+}
+
+footer {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 3rem 10rem;
+}
+
+footer p {
+    font-size: 16px;
+}
