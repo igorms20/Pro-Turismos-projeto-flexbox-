@@ -5,3 +5,4 @@ Este é um projeto simples e iniciante que fiz para aprimorar minhas habilidades
 - Propriedades utilizadas: flex-direction, justify-content, align-items, gap, margin, padding, etc.
 
 ## Link da página:
+https://igorms20.github.io/Pro-Turismos-projeto-flexbox-/
